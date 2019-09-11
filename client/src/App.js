@@ -18,7 +18,6 @@ function App() {
         <p>
           Welcome to the Wackiest Quiz!
         </p>
-        <audio src={music} autoplay="autoplay"></audio>
       </header>
       <body>
         <div class="row">
@@ -34,6 +33,7 @@ function App() {
             <img src={dancing_ki} vspace="40" class="img-fluid"/>
             <img src={baby} vspace="40" class="img-fluid"/>
           </div>
+            <audio src={music} controls autoplay="autoplay"></audio>
         </div>
       </body>
     </div>
