@@ -24,6 +24,22 @@
   color: #000000;
 }
 
+.gifColumn {
+  background-color: blue;
+  color: red;
+}
+
+[class^="col-3"] {
+  padding: 30px 5px 5px 5px;
+  background: red;
+  align-items: center;
+  text-align: center;
+}
+
+.sized{
+  min-height: 50px;
+  min-width: 50px;
+}
 
 @keyframes App-logo-spin {
   from {
