@@ -7,7 +7,11 @@ import dancing_ki from './dancing_ki.gif';
 import baby from './dancingbaby.gif';
 import dollar from './dollarspindownd.gif';
 import QuestionCard from './QuestionCard';
+
 import Quiz from './Quiz';
+
+
+import music from './demo.mp3';
 
 
 
@@ -35,11 +39,15 @@ function App() {
             <img src={baby} vspace="40" class="img-fluid"/>
           </div>
 
+
           
           <div>
             <p>IF YOU WANT TO KNOW MORE ABOUT THESE PEOPLE: https://and.digital/about/people/ </p>
           </div>
           
+
+            <audio src={music} controls autoplay="autoplay"></audio>
+
         </div>
       </body>
     </div>
