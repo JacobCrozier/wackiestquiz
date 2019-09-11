@@ -5,8 +5,12 @@ import QuestionCard from './QuestionCard';
 
 function App() {
   return (
-    <div className="App">  
-        <QuestionCard/>
+    <div className="App">
+      <header className="App-header">
+        <p>
+          Welcome to the Wackiest Quiz!
+        </p>
+      </header>
     </div>
   );
 }
