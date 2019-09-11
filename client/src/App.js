@@ -7,6 +7,8 @@ import dancing_ki from './dancing_ki.gif';
 import baby from './dancingbaby.gif';
 import dollar from './dollarspindownd.gif';
 import QuestionCard from './QuestionCard';
+import Quiz from './Quiz';
+
 
 
 
@@ -26,12 +28,18 @@ function App() {
             <div></div>
             <img src={dollar} vspace="40" class="img-fluid"/>
           </div>
-          <div class="col-6">col-6</div>
+          <div class="col-6"><Quiz/></div>
           <div class="col-3">
             <img src={pumpkinDance} vspace="30" class="img-fluid"/>
             <img src={dancing_ki} vspace="40" class="img-fluid"/>
             <img src={baby} vspace="40" class="img-fluid"/>
           </div>
+
+          
+          <div>
+            <p>IF YOU WANT TO KNOW MORE ABOUT THESE PEOPLE: https://and.digital/about/people/ </p>
+          </div>
+          
         </div>
       </body>
     </div>
