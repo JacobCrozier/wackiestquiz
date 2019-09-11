@@ -52,7 +52,7 @@ class quiz extends React.Component {
                     <button className="btn btn-success" onClick={this.handleClick6}> Are you Makeup Mad? </button>
                 </div>
                 <div>
-            <p>IF YOU WANT TO KNOW MORE ABOUT THESE PEOPLE: https://and.digital/about/people/ </p>
+            <p>IF YOU WANT TO KNOW MORE ABOUT THESE PEOPLE: <a href="https://and.digital/about/people/">AND</a> </p>
           </div>
             </div>
         );
