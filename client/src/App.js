@@ -41,9 +41,7 @@ function App() {
 
 
           
-          <div>
-            <p>IF YOU WANT TO KNOW MORE ABOUT THESE PEOPLE: https://and.digital/about/people/ </p>
-          </div>
+          
           
 
             <audio src={music} controls autoplay="autoplay"></audio>

@@ -42,7 +42,7 @@ class quiz extends React.Component {
 
     render() {
         return(
-            <div>
+            <div className="container">
                 <div>
                     <button className="btn btn-success" onClick={this.handleClick1}> Are you looking for a Cyclist? </button>
                     <button className="btn btn-success" onClick={this.handleClick2}> In need of an Experimental Baker? </button>
@@ -51,7 +51,9 @@ class quiz extends React.Component {
                     <button className="btn btn-success" onClick={this.handleClick5}> Are searching for that Aspiring Artist? </button>
                     <button className="btn btn-success" onClick={this.handleClick6}> Are you Makeup Mad? </button>
                 </div>
-                <Person person={this.state.person}/>
+                <div>
+            <p>IF YOU WANT TO KNOW MORE ABOUT THESE PEOPLE: https://and.digital/about/people/ </p>
+          </div>
             </div>
         );
     }
