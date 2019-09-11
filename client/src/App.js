@@ -1,7 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-<<<<<<< HEAD
 import john from './john.gif';
 import pumpkinDance from './giphy.gif';
 import fresh from './fresh.gif';
