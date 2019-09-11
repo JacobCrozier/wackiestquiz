@@ -21,7 +21,6 @@ class quiz extends React.Component {
 
     handleClick1() {
         alert("THEN YOU WANT ELLIOT!!")
-        this.setState({person: 'ELLIOT'});
 
     }
     handleClick2() {
