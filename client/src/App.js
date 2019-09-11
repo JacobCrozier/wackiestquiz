@@ -1,12 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+<<<<<<< HEAD
 import john from './john.gif';
 import pumpkinDance from './giphy.gif';
 import fresh from './fresh.gif';
 import dancing_ki from './dancing_ki.gif';
 import baby from './dancingbaby.gif';
 import dollar from './dollarspindownd.gif';
+import QuestionCard from './QuestionCard';
 
 
 

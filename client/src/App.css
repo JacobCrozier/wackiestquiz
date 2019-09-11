@@ -49,3 +49,16 @@
     transform: rotate(360deg);
   }
 }
+
+.Question-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.Button-container{
+
+}
+
+.btn{
+  margin: 10px;
+}
